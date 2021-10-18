@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinlyNodeManager.Core", "KinleyNodeManager.Core\KinlyNodeManager.Core.csproj", "{7A17E9D9-B400-4523-B068-B075BC84FD37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinlyNodeManager.Persistence", "KinlyNodeManager.Persistence\KinlyNodeManager.Persistence.csproj", "{FEDB2C0A-F014-4349-91CC-42FB08CA8E79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinlyNodeManagerService", "KinlyNodeManagerService\KinlyNodeManagerService.csproj", "{68D4494E-172A-4471-8B73-D3A9EF682850}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinleyNodeManager.API", "KinleyNodeManager.API\KinleyNodeManager.API.csproj", "{E84D42F8-41FF-4890-9578-6E3D79501FED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinlyNodeManager.Test", "KinlyNodeManager.Test\KinlyNodeManager.Test.csproj", "{41FC7548-AE5C-4F0B-A396-9FA5FAD8CDEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A17E9D9-B400-4523-B068-B075BC84FD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A17E9D9-B400-4523-B068-B075BC84FD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A17E9D9-B400-4523-B068-B075BC84FD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A17E9D9-B400-4523-B068-B075BC84FD37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDB2C0A-F014-4349-91CC-42FB08CA8E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDB2C0A-F014-4349-91CC-42FB08CA8E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDB2C0A-F014-4349-91CC-42FB08CA8E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDB2C0A-F014-4349-91CC-42FB08CA8E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D4494E-172A-4471-8B73-D3A9EF682850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D4494E-172A-4471-8B73-D3A9EF682850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D4494E-172A-4471-8B73-D3A9EF682850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D4494E-172A-4471-8B73-D3A9EF682850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84D42F8-41FF-4890-9578-6E3D79501FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84D42F8-41FF-4890-9578-6E3D79501FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84D42F8-41FF-4890-9578-6E3D79501FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84D42F8-41FF-4890-9578-6E3D79501FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41FC7548-AE5C-4F0B-A396-9FA5FAD8CDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41FC7548-AE5C-4F0B-A396-9FA5FAD8CDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41FC7548-AE5C-4F0B-A396-9FA5FAD8CDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41FC7548-AE5C-4F0B-A396-9FA5FAD8CDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F7B3966-9273-4040-BED2-C7CAB52BCBE5}
+	EndGlobalSection
+EndGlobal
